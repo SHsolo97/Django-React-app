@@ -1,0 +1,19 @@
+const courses=[
+{"sid":"1","ccode":"CSE1001","ctitle":"Problem Solving and Programming","credits":3,"cdescription":"Python Programming","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/51HAriQEIkL._SX380_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"2","ccode":"CSE1002","ctitle":"Problem Solving with Object Oriented Programming","credits":4,"cdescription":"C++ Programming | Object Oriented Programming","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/51mFIfGwEPL._SX348_BO1,204,203,200_.jpg","seatsRemaining":59},
+{"sid":"3","ccode":"CSE3999","ctitle":"Technical Answers for Real World Problems (TARP)","credits":2,"cdescription":"Solving a Real World problem with business plan","imageUrl":"https://miro.medium.com/max/2800/0*qwPsvEi6SijVpxpZ.","seatsRemaining":60},
+{"sid":"4","ccode":"CSE4098","ctitle":"Linear Algebra","credits":5,"cdescription":"Solving Algebraic Equations","imageUrl":"https://math.mit.edu/~gs/linearalgebra/linearalgebra5_Front.jpg","seatsRemaining":60},
+{"sid":"5","ccode":"CSE1003","ctitle":"Digital Logic and Design","credits":4,"cdescription":"Digital Logic | Logic Gates | Flipflops","imageUrl":"https://m.media-amazon.com/images/I/511OqY2Wt2L.jpg","seatsRemaining":60},
+{"sid":"6","ccode":"CSE2001","ctitle":"Computer Architecture and Organization","credits":4,"cdescription":"Architecture of Computer Systems","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/51f368I1z6L._SX384_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"7","ccode":"CSE2002","ctitle":"Theory of Computation & Compiler Design","credits":4,"cdescription":"Automata Theory | FSA ","imageUrl":"https://m.media-amazon.com/images/I/41r-V--MGIL.jpg","seatsRemaining":60},
+{"sid":"8","ccode":"CSE2003","ctitle":"Data Structures and Algorithms","credits":4,"cdescription":"Arrays | Stack | Queue | Linked list","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/515iDOTd0XL._SX373_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"9","ccode":"CSE1004","ctitle":"Network and Communication","credits":4,"cdescription":"Network Architecture | Network Layers ","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/51hWo5jBc7L._SX366_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"10","ccode":"CSE2004","ctitle":"Database Management System","credits":4,"cdescription":"RDBMS | SQL | NoSQL","imageUrl":"https://www.schandpublishing.com/uploads/bookimages/schand-books/9789325984370.jpg","seatsRemaining":60},
+{"sid":"11","ccode":"CSE3001","ctitle":"Software Engineering","credits":4,"cdescription":"Object Oriented Concepts","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/513ME3UUZCL._SX380_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"12","ccode":"CSE2005","ctitle":"Operating Systems","credits":4,"cdescription":"Process Management | Memory Management | File Management","imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKZmCkI1-41ze04zIXl72HOBxCftF1pGPKPQ&usqp=CAU","seatsRemaining":60},
+{"sid":"13","ccode":"CSE4001","ctitle":"Parallel and Distributed Computing","credits":4,"cdescription":"Parallel Programming | Threads | Process Allocation","imageUrl":"https://kbimages1-a.akamaihd.net/cb35bf80-96ea-4d57-bb30-8a7eebf01a14/353/569/90/False/introduction-to-parallel-computing.jpg","seatsRemaining":60},
+{"sid":"14","ccode":"CSE3002","ctitle":"Internet and Web Programming","credits":4,"cdescription":"HTML | CSS | JAvascript | Node JS","imageUrl":"https://images-na.ssl-images-amazon.com/images/I/51M3Bs6PE2L._SX340_BO1,204,203,200_.jpg","seatsRemaining":60},
+{"sid":"15","ccode":"CSE2006","ctitle":"Microprocessor and Interfacing","credits":4,"cdescription":"Peripheral Interfacing | 8086 | Assembly Language","imageUrl":"https://5.imimg.com/data5/TY/AT/MY-25289254/advanced-microprocessor-and-interfacing-500x500.jpg","seatsRemaining":60}
+]
+
+export default courses;

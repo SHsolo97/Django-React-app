@@ -1,0 +1,167 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login, .signup{
+    display: inline-block;
+    padding: 40px;
+  }
+  .course-card{
+    width: 200px;
+
+  }
+  .he{
+    display: inline-block;
+    color:#16207e;
+    grid-area: h;
+  }
+  input[type=submit], select {
+    background-color: #7c9473;
+    border: none;
+    color: #16207e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .signup{
+    grid-area: signup;
+    margin-right: 30px;
+    background-color: #cfdac8;
+    color: #16207e;
+  }
+  .login{
+    grid-area: login;
+    background-color: #cfdac8;
+    color: #16207e;
+  }
+  .container{
+    margin:auto;
+    padding:40px;
+    text-align:center;
+    align-items: center;
+    display: grid;
+    grid:
+    'h h'
+    'signup login'
+    'signup login';
+    background-color: #7c9473;;
+  }
+  .button1 {
+    background-color: #7c9473;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  body{
+    background-color: #7c9473;
+  }
+  ul{
+    position: fixed;
+    list-style-type: none;
+    color: inherit;
+  }
+  img{
+    width: 150px;
+    height: 200px;
+  }
+  li{
+    padding: 30px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  header{
+    grid-area: h;
+    background-color: #7c9473;
+    margin: 50px;
+  }
+  .button {
+    background-color: #cdd0cb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .site-nav{
+    grid-area: sb;
+    background-color:#0f3057;
+    margin-right: 20px;
+  }
+  .main{
+    grid-area:m;
+    background-color: #cfdac8;
+    margin-right: 20px;
+  }
+  .Filteritem{
+    display: inline-block;
+  }
+  .Courses{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .course-card{
+    display: inline-block;
+    margin: 10px;
+    padding: 50px;
+  }
+  
+  .sidebar-top{
+    height:100%;
+    grid-area:sbt;
+    background-color:#cfdac8;
+    margin-bottom: 20px;
+  
+  }
+  .sidebar-bottom{
+    height:100%;
+    grid-area:sbb;
+    background-color: #cfdac8;
+  }
+  .search{
+    width:200px;
+
+  }
+  
+  .containerHome{
+    background-color: #7c9473;
+    display: grid;
+    grid:
+    'sb h h'
+    'sb m sbt'
+    'sb m sbb';
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+  
